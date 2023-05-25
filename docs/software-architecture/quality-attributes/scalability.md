@@ -1,9 +1,9 @@
 # Scalability
 
-The ability of the system that allows it to manage additonal work load without any changes incausing any side effects on the expected behaviour. 
+A system is considered to have scalability attribute if it is able to manage additonal work load without any changes incausing any side effects on the expected behaviour. 
 
 Exmaples:
- - A system is said to be scalable if it is able to serve increasing traffic (e.g. from 1x to 2x and then 2x to 3x) without any changes in architecture.
+ - A system is scalable if it is able to serve increasing traffic (e.g. from 1x to 2x and then 2x to 3x) without any changes in architecture.
 
 
 Databases
