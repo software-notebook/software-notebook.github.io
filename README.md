@@ -30,3 +30,26 @@ Changed deploy.js because of ssh cert error
 if (shellExecLog(`git clone -c http.sslverify=false --depth 1 --branch ${deploymentBranch} ${deploymentRepoURL} "${toPath}"`).code === 0) {
      shellExecLog('git rm -rf .');
 }
+
+
+
+#2  the following error happens becuase of node version so please check you are using latest version of the node.
+
+> docusaurus clear
+
+process.env.BABEL_ENV ??= 'development';
+                       ^
+
+SyntaxError: Unexpected token '?'
+    at Loader.moduleStrategy (internal/modules/esm/translators.js:140:18)
+    at async link (internal/modules/esm/module_job.js:42:21)
+npm ERR! code ELIFECYCLE
+npm ERR! errno 1
+npm ERR! software-architecture@0.0.0 clear: `docusaurus clear`
+npm ERR! Exit status 1
+npm ERR! 
+npm ERR! Failed at the software-architecture@0.0.0 clear script.
+npm ERR! This is probably not a problem with npm. There is likely additional logging output above.
+
+npm ERR! A complete log of this run can be found in:
+npm ERR!     ..../.npm/_logs/2023-05-25T03_50_05_691Z-debug.log
