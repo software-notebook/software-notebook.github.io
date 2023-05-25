@@ -53,3 +53,10 @@ npm ERR! This is probably not a problem with npm. There is likely additional log
 
 npm ERR! A complete log of this run can be found in:
 npm ERR!     ..../.npm/_logs/2023-05-25T03_50_05_691Z-debug.log
+
+
+#3 Setup GIT_USER and GIT_PASS in the env before invoking the command in case of following error:
+
+[INFO] Deploy command invoked...
+[ERROR] Error: Please set the GIT_USER environment variable, or explicitly specify USE_SSH instead!
+    at Command.deploy (software-architecture/node_modules/@docusaurus/core/lib/commands/deploy.js:70:19)
