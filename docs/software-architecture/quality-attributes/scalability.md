@@ -10,6 +10,7 @@ Exmaples:
  - Peak hours (lunch time for social networking sites or ecommorce sites)
 	- food order app - lunch time, dinner time, weekends
 	- rides - office hours
+ - Scale Cube [Art of Scalaiblity](https://akfpartners.com/growth-blog/scale-cube)
 
 Databases
     - Single Master Database

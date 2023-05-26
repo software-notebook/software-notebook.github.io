@@ -10,3 +10,9 @@
 [Martin Folwer](https://martinfowler.com/)
 
 [Serverlessland - Event Driven Architecture](https://serverlessland.com/event-driven-architecture)
+
+[Netflix](https://netflixtechblog.com/)
+
+[Snowflake](https://resources.snowflake.com/ebooks)
+
+[Architecture @ IBM](https://www.ibm.com/cloud/architecture/architectures)
