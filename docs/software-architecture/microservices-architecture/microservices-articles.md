@@ -22,3 +22,14 @@ The [microservice architectural style](https://martinfowler.com/articles/microse
 
 [Transaction Outbox Pattern](https://microservices.io/patterns/data/transactional-outbox.html) - A service must atomically update the database and send messages in order to avoid data inconsistencies and bugs. 
 
+
+[Saga Pattern]
+#### Microservices Data
+
+[The Harderst part about microservices data](https://blog.christianposta.com/microservices/the-hardest-part-about-microservices-data/)
+
+#### Miscorservices migration strategy
+
+[Marin Folwer - Strangler Pattern](https://martinfowler.com/bliki/StranglerFigApplication.html)
+
+[Steve Smith - Verify Branch By Abstraction](https://www.stevesmith.tech/blog/application-pattern-verify-branch-by-abstraction/)

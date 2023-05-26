@@ -5,6 +5,11 @@ A system is considered to have scalability attribute if it is able to manage add
 Exmaples:
  - A system is scalable if it is able to serve increasing traffic (e.g. from 1x to 2x and then 2x to 3x) without any changes in architecture.
 
+- Shared resource constraints (e.g. database)
+	- It is pointless scaling a service up to 10 instances when a back-end datastore will only accept enough connections to support 3. In fact, scaling out services can be hazardous when it exposes other components to load that they are unable to support. Increasing capacity in one part of the system can degrade the system as a whole.
+ - Peak hours (lunch time for social networking sites or ecommorce sites)
+	- food order app - lunch time, dinner time, weekends
+	- rides - office hours
 
 Databases
     - Single Master Database
