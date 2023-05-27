@@ -1,12 +1,12 @@
 ---
 slug: first-blog-post
-title: First Blog Post
+title: Lessons learned form Kafka in production
 authors:
-  name: Gao Wei
-  title: Docusaurus Core Team
-  url: https://github.com/wgao19
-  image_url: https://github.com/wgao19.png
-tags: [hola, docusaurus]
+  name: Tim Berglund
+  title: Confluent Team
+  url: https://youtu.be/1vLMuWsfMcA
+  image_url: https://yt3.ggpht.com/ytc/AGIKgqPFMYK9PX2dbNZlDCyfK0WEWuCpZPPUNKwqRnI=s88-c-k-c0x00ffffff-no-rj
+tags: [Kafka]
 ---
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet
+<iframe width="560" height="315" src="https://www.youtube.com/embed/1vLMuWsfMcA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
