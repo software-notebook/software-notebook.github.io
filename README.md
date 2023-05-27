@@ -22,6 +22,9 @@ If you are using GitHub pages for hosting, this command is a convenient way to b
 
 
 Notes
+# Command to start the server
+npm run start 
+
 #1
 The following url works as of now !!!
 https://atulagrawal.github.io/software-architecture/docs/category/tutorial---extras/
@@ -67,3 +70,5 @@ Error: The `style` prop expects a mapping from style properties to values, not a
 Fix : iframe - Remove the style and explictly add the attributes.
 
 ````
+
+
