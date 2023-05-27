@@ -92,7 +92,7 @@ const config = {
             sidebarId: 'systemDesignSidebar',
             label: 'System Design',
           },
-          {to: '/blog', label: 'Blog', position: 'left'},
+          {to: '/blog', label: 'Webinars', position: 'left'},
           {
             href: 'https://github.com/atulagrawal/software-architecture',
             label: 'GitHub',
@@ -107,8 +107,8 @@ const config = {
             title: 'Docs',
             items: [
               {
-                label: 'Tutorial',
-                to: '/docs/intro',
+                label: 'Contribute',
+                to: '/docs/contribute',
               },
             ],
           },

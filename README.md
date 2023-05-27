@@ -60,3 +60,10 @@ npm ERR!     ..../.npm/_logs/2023-05-25T03_50_05_691Z-debug.log
 [INFO] Deploy command invoked...
 [ERROR] Error: Please set the GIT_USER environment variable, or explicitly specify USE_SSH instead!
     at Command.deploy (software-architecture/node_modules/@docusaurus/core/lib/commands/deploy.js:70:19)
+
+
+````iframe
+Error: The `style` prop expects a mapping from style properties to values, not a string. For example, style={{marginRight: spacing + 'em'}} when using JSX.
+Fix : iframe - Remove the style and explictly add the attributes.
+
+````

@@ -1,10 +1,6 @@
 # Domain Driven Design - Books!
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/z8qhToMtYRc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+<iframe type="text/html" sandbox="allow-scripts allow-same-origin allow-popups" width="250" height="350" frameborder="5" allowfullscreen src="https://read.amazon.com/kp/card?asin=B00794TAUG&preview=inline&linkCode=kpe&ref_=cm_sw_r_kb_dp_18WQ5301C7RWM1XZW6FQ" ></iframe>
 
 
-[watch your video here ->](https://youtu.be/z8qhToMtYRc)
-
- style=";max-width:660px;overflow:hidden;border-radius:10px;"
-
-<iframe allow="autoplay *; encrypted-media *; fullscreen *; clipboard-write" frameborder="0" height="175" width="100%" sandbox="allow-forms allow-popups allow-same-origin allow-scripts allow-storage-access-by-user-activation allow-top-navigation-by-user-activation" src="https://embed.podcasts.apple.com/il/podcast/engineering-stack-overflow-with-roberta-arcoverde/id117488860?i=1000568359491"></iframe>
+<iframe type="text/html" sandbox="allow-scripts allow-same-origin allow-popups" width="250" height="350" frameborder="5" allowfullscreen src="https://read.amazon.com/kp/card?asin=B00BCLEBN8&preview=inline&linkCode=kpe&ref_=cm_sw_r_kb_dp_NZ8JM12CYJA25JEPTCMG" ></iframe>
