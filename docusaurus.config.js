@@ -92,7 +92,12 @@ const config = {
             sidebarId: 'systemDesignSidebar',
             label: 'System Design',
           },
-          {to: '/blog', label: 'Webinars', position: 'left'},
+          {to: '/blog', label: 'Tech Talks', position: 'left'},
+          {
+            href: '/docs/blogs-to-follow',
+            label: 'Blogs To Follow',
+            position: 'left',
+          },
           {
             href: 'https://github.com/atulagrawal/software-architecture',
             label: 'GitHub',
