@@ -1,4 +1,5 @@
-# Domain Driven Design - Notes!
+# Domain Driven Design
+## Taxonomies
 ### Aggregate
 > An aggregate is a domain object that encapsulates the business rules (invariants) and provide the appropriate interfaces to the outside world
 > for interacting with it for performing business operation. As an example, Order aggregates would have the required logic for accepting and rejecting the orders. 
@@ -27,3 +28,22 @@
 
 ### Domain Events
 
+## Webinars
+<iframe width="560" height="315" src="https://www.youtube.com/embed/z8qhToMtYRc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+
+## Articles!
+
+[Microsoft - Domain Analysis](https://docs.microsoft.com/en-us/azure/architecture/microservices/model/domain-analysis)
+
+[Microsfot - Tactical TDD](https://docs.microsoft.com/en-us/azure/architecture/microservices/model/tactical-ddd)
+
+[Nick Tune - Mddelling the bounded context..](https://medium.com/nick-tune-tech-strategy-blog/modelling-bounded-contexts-with-the-bounded-context-design-canvas-a-workshop-recipe-1f123e592ab)
+
+
+## Books!
+
+<iframe type="text/html" sandbox="allow-scripts allow-same-origin allow-popups" width="250" height="350" frameborder="5" allowfullscreen src="https://read.amazon.com/kp/card?asin=B00794TAUG&preview=inline&linkCode=kpe&ref_=cm_sw_r_kb_dp_18WQ5301C7RWM1XZW6FQ" ></iframe>
+
+
+<iframe type="text/html" sandbox="allow-scripts allow-same-origin allow-popups" width="250" height="350" frameborder="5" allowfullscreen src="https://read.amazon.com/kp/card?asin=B00BCLEBN8&preview=inline&linkCode=kpe&ref_=cm_sw_r_kb_dp_NZ8JM12CYJA25JEPTCMG" ></iframe>
