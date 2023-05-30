@@ -15,4 +15,8 @@
 
 [Snowflake](https://resources.snowflake.com/ebooks)
 
+[Linkedin Engineering](https://engineering.linkedin.com/)
+
+[Meta Engineering](https://engineering.fb.com)
+
 [Architecture @ IBM](https://www.ibm.com/cloud/architecture/architectures)

@@ -1,6 +1,8 @@
 # Scalability
 
-A system is considered to have scalability attribute if it is able to manage additonal work load without any changes incausing any side effects on the expected behaviour. 
+A system is considered to have scalability attribute if it is able to manage additonal work-load without causing any design changes. 
+
+> A service is said to be scalable if when we increase the resources in a system, it results in increased performance in a manner proportional to resources added, - Werner Vogels
 
 Exmaples:
  - A system is scalable if it is able to serve increasing traffic (e.g. from 1x to 2x and then 2x to 3x) without any changes in architecture.
@@ -12,7 +14,11 @@ Exmaples:
 	- rides - office hours
  - Scale Cube [Art of Scalaiblity](https://akfpartners.com/growth-blog/scale-cube)
 
-Databases
+- Methods
+    - Horizontal Scalability - The instrastructure is scalled by adding more and more instances. E.g. A bigger room has multiple Aircons for tempature control.
+    - Verifical Scalability - The infrasturcutre is upgraded so that it has  more Compute, Storage or Memory. No of instances remains thes same. E.g. A bigger room has Aircon that has 4X temparature control power than previous one.
+
+## Databases
     - Single Master Database
     - Master and Read Replicas
     - Master and Slave
@@ -39,20 +45,20 @@ Databases
             - Possible to design the data model as per database query
     - ACID vs BASE
 
-Events
+## Events
     - Pupblish-Subscriber pattern
         - Add more consumers for managing the additonal load.
     - Fan out
         - A sizable task can be broken down into smaller ones that can be processed layer by the workers (consumers)
 
 
-Services
+## Services
     - MicroServices Pattern
         - Allows the services to scale indepedenctly as per their scale needs.
     - No shared local state.
 	    - local state means that the same customer's request will have to go through same machine or instance so if huge traffic is there for hot key (celebrity) than machine might not be able to handle the load.
         
-Deployment Strategies     
+# Deployment Strategies     
     - Auto scalability
         - Automically provision the new instances to serve more traffic.
     - Multi Data Centers and Avaliablity Zones
