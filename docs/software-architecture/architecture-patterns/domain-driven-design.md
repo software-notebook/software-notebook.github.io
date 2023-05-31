@@ -40,6 +40,8 @@
 
 [Nick Tune - Mddelling the bounded context..](https://medium.com/nick-tune-tech-strategy-blog/modelling-bounded-contexts-with-the-bounded-context-design-canvas-a-workshop-recipe-1f123e592ab)
 
+[Domain Driven Design like a pro](https://medium.com/raa-labs/part-1-domain-driven-design-like-a-pro-f9e78d081f10)
+
 
 ## Books!
 

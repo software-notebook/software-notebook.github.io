@@ -20,7 +20,9 @@
     - Release Notes
         - Publish the release notes with clients about API contract changes.
     - Backward compatiblity
-        - Keep the backward compatiblity in mind while designing solutions. If not, think about defining the next version of APIs.
+        - Keep the backward compatiblity in mind while designing solutions. 
+        - If not possible, make breaking changes as additive to original API. Old client can continue to use old fields till migrated to new fields.
+        - As a last resort, think about defining the next version of APIs.
     - Versioning
         - Upgrade Major Version for significant changes or backward incompatible changes.
     - Rollback and Fix forward starategies
