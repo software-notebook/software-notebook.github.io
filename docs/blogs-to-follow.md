@@ -3,6 +3,8 @@
 
 [Byte byte go](https://blog.bytebytego.com/?utm_source=site)
 
+[Developer to Architect](https://www.developertoarchitect.com/lessons/)
+
 [Architecture Notes](https://architecturenotes.co/)
 
 [All things Distributed @ Werner Vogels](https://www.allthingsdistributed.com/)

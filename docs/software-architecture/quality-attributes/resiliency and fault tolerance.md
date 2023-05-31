@@ -34,3 +34,7 @@ Use Retries, Circuit Breakers etc.
     - if Multiple Apis are sharing the same thread poll and if one of the api has degraded latency then it can slow down other apis as well leading to timeouts etc. As an example, a downstream service is taking more time then expected for a given api then threads will have to wait longer. In this case, bulk-head pattern can be followed along with other resiliency strategy e.g. timeouts.
 - chaos engineering
     - inject faults into the system and observ the behaviour for finding out the gaps.
+
+
+# Refererences
+[Netflix - Fault Tolerance in distributed systems](https://netflixtechblog.com/fault-tolerance-in-a-high-volume-distributed-system-91ab4faae74a)

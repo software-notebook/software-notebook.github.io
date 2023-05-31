@@ -7,7 +7,6 @@ Exmaples:
  - On the hand, if systems performance continues to degrade e.g. due to memory leaks, resource starvation etc then it would exhibit non-performant behaviour.
 
 
-
 Resources and Bottlenecks
     - Sharing
         - Threads - Common Thread Pools across all APIs in a service.

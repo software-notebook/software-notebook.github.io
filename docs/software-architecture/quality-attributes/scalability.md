@@ -18,6 +18,16 @@ Exmaples:
     - Horizontal Scalability - The instrastructure is scalled by adding more and more instances. E.g. A bigger room has multiple Aircons for tempature control.
     - Verifical Scalability - The infrasturcutre is upgraded so that it has  more Compute, Storage or Memory. No of instances remains thes same. E.g. A bigger room has Aircon that has 4X temparature control power than previous one.
 
+- Metrics to discuss
+    - daily active users
+    - peak hours (morning hours, lunch hours etc.)
+    - holiday sales (black friday etc.)
+    - number of requests per seconds
+    - query per seconds
+- Use Above Metrics for identifying bottlenecks
+    - Database Scalablity
+    - Storage Capacity
+    - Network Bandwidth
 ## Databases
     - Single Master Database
     - Master and Read Replicas
