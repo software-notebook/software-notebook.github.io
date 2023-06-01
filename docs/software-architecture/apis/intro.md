@@ -1,5 +1,9 @@
-# REST API
-## API as a Product
+---
+title : API Basics
+sidebar_position: 1
+---
+## 1. Define API as a Product
+The well defined APIs have following charactrisctics.
 - Usable
     - Ease to use.
 - Simple

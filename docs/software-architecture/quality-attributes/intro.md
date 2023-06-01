@@ -1,4 +1,7 @@
-# Introduction
+---
+title : Introduction
+sidebar_position: 1
+---
 > *Software Quality Attributes are Invisible untill things go wrong..*
 >
 > Read this [Article](https://www.3pillarglobal.com/insights/the-importance-of-quality-attributes-in-software-architecture/) for more details.
