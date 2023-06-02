@@ -4,6 +4,7 @@
 Use Retries, Circuit Breakers etc.
  - Helps in avoiding intermittent failures (e.g. network connections, timoout etc.)
  - Use Idempotency Mechanism for consistency and relaiblity.
+> Idempotency - A service is said to have the idempotence characteristic if the same input being thrown at it multiple times does not change its state unexpectedly.
  - Avoid retry storming
 	- A->B->C->D if Retry count of 4 is set across A,B,C,D and if failure happens at D then D would be retried 64 times. 
 		- Think about circuit breakers

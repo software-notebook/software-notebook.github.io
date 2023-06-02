@@ -24,9 +24,18 @@
 
 [Context Mapping](https://www.infoq.com/articles/ddd-contextmapping/)
 
-
+### Event Storming
+> Event storming is an exercise for finding out the domain boundries, domain events and aggregates. Please refer[this artcile](https://atul-agrawal.medium.com/event-storming-and-domain-driven-design-for-subway-e9a295b5aba3) for details.
 
 ### Domain Events
+> A domain event is published whenever a business operation is performed by the customer of the system.
+
+```mermaid
+flowchart LR
+    OrderPlaced -.->OrderConfirmed-.->OrderCancelled
+    OrderPlaced-.-> OrderDeclined
+    OrderConfirmed -.-> OrderProcessed
+```
 
 ## Webinars
 <iframe width="560" height="315" src="https://www.youtube.com/embed/z8qhToMtYRc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
