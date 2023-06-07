@@ -24,11 +24,15 @@ Resources and Bottlenecks
 	        - If request for two diff users go to two diff data center then both will get procssed locally..
         - Pessimistic Lock
             - Acquire the lock on the resource, perform the business operation, update the resource, release the lock on the resource.
+    - Distributed Locks
+        - The lock has a timeout (i.e. it is a lease) so that if a service / client is down then it doesn't end up holding a lock forever and never releasing it. 
         
-
-Dependencies
-    - Downtream services and databases
-    - Libraries
+Latency
+- One of the most devastating and unpredictable latency intruders is the Java Virtual Machine’s (JVM’s) “stop the world” pauses for garbage collection (memory clean-up). [HBase - Tuning Garbase Collection](https://blog.cloudera.com/tuning-java-garbage-collection-for-hbase/)
+- strong consistency causes performance and latency issues as well. Each write is more expensive, especially with cross-datacenter replication, as it needs the acknowledgment of multiple replicas. 
+- Dependencies 
+    - Downtream services and databases - (sequential vs parrallel invocation)
+    - Libraries (performance, compute time)
 
 Core Application Logic
     - Utlisization of Resources for the given business use case
@@ -54,6 +58,17 @@ API Design
 Events
     - Fire and Forget
 	    - Use events for the tasks that are not needed immediately.
-Cache
-    -  Helps in reducing the load on databases
-    -  Helps in faster turn-around because of in-memory data access
+## Cache
+There are two key intents of using the cache:
+1. Cache as primary storage
+
+This approach can be used where we have to store some some transient, fast-changing data, and where it’s not a big deal if you occasionally lose that data for whatever reason. In this case, there is no other storage.
+Examples : Request counters per IP address (for rate limiting purposes) or Distinct IP addresses per user ID (for abuse detection).
+
+2. Cache as supplimentary storage
+
+This approach is used for reducing the latency and for reudcing the load on primary storage. In this case, cache is filled from primary storage source for the data that gets accessed very frequently.
+Examples : Storing the session information per customer for authentication and authorization.
+
+
+
