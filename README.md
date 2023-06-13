@@ -5,7 +5,7 @@ This website is built using [Docusaurus 2](https://docusaurus.io/), a modern sta
 Please ensure the following:
 - Setup the latest node version ( v18.12.1). You can use nvm for node version management.
 - Configure the GIT_USER and GIT_PASS if you are using "npm run deployment" command
- 
+- execute "npm run start" command for launchign the site.
 
 ### Installation
 

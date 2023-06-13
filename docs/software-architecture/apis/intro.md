@@ -3,7 +3,7 @@ title : API Basics
 sidebar_position: 1
 ---
 ## 1. Define API as a Product
-The well defined APIs have following charactrisctics.
+The well defined APIs have following characteristics.
 - Usable
     - Ease to use.
 - Simple

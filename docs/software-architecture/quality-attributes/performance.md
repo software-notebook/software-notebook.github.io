@@ -49,6 +49,13 @@ Database
     - Single Data Center vs Multiple Data Center
     - Consistency vs Eventual Consistency
         - eventual consistency is problematic for read-after-write use-cases.
+    - Read heavy vs write heavy
+        - Command Query Responsiblity Segregation - CQRS.
+        - Replication (read replicas)
+    - Database paritioning
+        - Horizontal Parition - Table Data (rows) is sharded across multiple instances based on certain keys (e.g. US customer in shard A, IN customer in shard B)
+        - Verification Parition - Tables in a databases are split across multiple instances (e.g. Customer table in instance A and Customer Order table in instance B)
+    - [Connection Pooling](https://www.cockroachlabs.com/blog/what-is-connection-pooling/)
 API Design
     - Bulk APIs - Helps in performing same operation for multiple requests.
     - Pagination - Helps in client iteratively use the data.
