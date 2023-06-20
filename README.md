@@ -24,23 +24,25 @@ $ GIT_USER=<Your GitHub username> yarn deploy
 If you are using GitHub pages for hosting, this command is a convenient way to build the website and push to the `gh-pages` branch.
 
 
-Notes
+The following url works as of now !!!
+https://atulagrawal.github.io/software-architecture/docs/category/tutorial---extras/
+
+# Notes
 # Command to start the server
 npm run start 
 
-#1
-The following url works as of now !!!
-https://atulagrawal.github.io/software-architecture/docs/category/tutorial---extras/
-#2
-Changed deploy.js because of ssh cert error
+# Errors
+## Error - 1 : SSH Cert Error
+
+Soltuion : Change deploy.js because of ssh cert error
+```
 if (shellExecLog(`git clone -c http.sslverify=false --depth 1 --branch ${deploymentBranch} ${deploymentRepoURL} "${toPath}"`).code === 0) {
      shellExecLog('git rm -rf .');
 }
+```
 
-
-
-#2  the following error happens becuase of node version so please check you are using latest version of the node.
-
+#Error - 2 : Node Version Related Error.
+```
 > docusaurus clear
 
 process.env.BABEL_ENV ??= 'development';
@@ -60,8 +62,9 @@ npm ERR! This is probably not a problem with npm. There is likely additional log
 npm ERR! A complete log of this run can be found in:
 npm ERR!     ..../.npm/_logs/2023-05-25T03_50_05_691Z-debug.log
 
+```
 
-#3 Setup GIT_USER and GIT_PASS in the env before invoking the command in case of following error:
+#Error -3 : Setup GIT_USER and GIT_PASS in the env before invoking the command in case of following error:
 
 [INFO] Deploy command invoked...
 [ERROR] Error: Please set the GIT_USER environment variable, or explicitly specify USE_SSH instead!
