@@ -77,4 +77,6 @@ Fix : iframe - Remove the style and explictly add the attributes.
 
 ````
 
-
+# Other Notes
+You can configure different branch and root folder by navigating to 
+Settings -> Pages (sidebar) -> Build and Deployment Section (page section) -> Branch (Specify the branch to be used and the folder here)
