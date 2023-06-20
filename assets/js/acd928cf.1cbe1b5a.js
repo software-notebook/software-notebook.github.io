@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunksoftware_architecture=self.webpackChunksoftware_architecture||[]).push([[6286],{35:e=>{e.exports=JSON.parse('{"label":"Microservices","permalink":"/software-architecture/blog/tags/microservices","allTagsPath":"/software-architecture/blog/tags","count":1}')}}]);

@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunksoftware_architecture=self.webpackChunksoftware_architecture||[]).push([[9842],{1454:a=>{a.exports=JSON.parse('{"label":"Kafka","permalink":"/software-architecture/blog/tags/kafka","allTagsPath":"/software-architecture/blog/tags","count":1}')}}]);

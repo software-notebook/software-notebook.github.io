@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunksoftware_architecture=self.webpackChunksoftware_architecture||[]).push([[5454],{4744:e=>{e.exports=JSON.parse('{"label":"Multi Data Center","permalink":"/software-architecture/blog/tags/multi-data-center","allTagsPath":"/software-architecture/blog/tags","count":1}')}}]);

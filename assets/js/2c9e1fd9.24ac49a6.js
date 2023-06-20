@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunksoftware_architecture=self.webpackChunksoftware_architecture||[]).push([[2218],{5010:e=>{e.exports=JSON.parse('{"label":"SQL","permalink":"/software-architecture/blog/tags/sql","allTagsPath":"/software-architecture/blog/tags","count":1}')}}]);

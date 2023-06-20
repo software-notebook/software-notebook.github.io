@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <id>https://your-docusaurus-test-site.com/software-architecture/blog</id>
+    <title>Software Architecture Blog</title>
+    <updated>2023-06-13T23:20:21.000Z</updated>
+    <generator>https://github.com/jpmonette/feed</generator>
+    <link rel="alternate" href="https://your-docusaurus-test-site.com/software-architecture/blog"/>
+    <subtitle>Software Architecture Blog</subtitle>
+    <icon>https://your-docusaurus-test-site.com/software-architecture/img/favicon.ico</icon>
+    <entry>
+        <title type="html"><![CDATA[Goals, Objective and Outcomes]]></title>
+        <id>https://your-docusaurus-test-site.com/software-architecture/blog/goals-objectives-and-outcomes</id>
+        <link href="https://your-docusaurus-test-site.com/software-architecture/blog/goals-objectives-and-outcomes"/>
+        <updated>2023-06-13T23:20:21.000Z</updated>
+        <summary type="html"><![CDATA[Background]]></summary>
+        <content type="html"><![CDATA[<h2 class="anchor anchorWithStickyNavbar_LWe7" id="background">Background<a href="#background" class="hash-link" aria-label="Direct link to Background" title="Direct link to Background">​</a></h2><p>In our day to day life, we are often asked various questions like "why we are doing this", "what would happen if we don't do it", "how do we know if we are doing the right thing" and so on.</p><p>The reason why these questions comes to our mind is because are we think inside out and we don't have the sufficient context why this decision was made and why we are being asked to do a specific task.</p><p>As an example, a team might get a goal that the unit test coverage for the components should be at least 85%. We all understand the need for having the unit test cases but then we have questions about the measurement criteria. E.g. is it important to have well written test cases vs some poorly written test cases that have 80-90% line coverage?</p><p>This is where we need to share a big picture with the team mates and we need to explain and share the <em>why</em> (goals and objectives) so that team better understanding and is able to help in achieveing the actual goal even though if it means that we have to adjust the measurement criteria from 85% coverage to 80% coverage and well maintained test cases.</p><blockquote><p>The maintainance of the test case is very important and we should add update them if we are founding any new bug.</p></blockquote><h2 class="anchor anchorWithStickyNavbar_LWe7" id="template">Template<a href="#template" class="hash-link" aria-label="Direct link to Template" title="Direct link to Template">​</a></h2><p>The big picture can be shared using following template:</p><p>Note - Outcomes should be used for identifying the gaps and improvements - What changes are required in processes, What changes are required in objectives.</p><h2 class="anchor anchorWithStickyNavbar_LWe7" id="examples">Examples<a href="#examples" class="hash-link" aria-label="Direct link to Examples" title="Direct link to Examples">​</a></h2><h3 class="anchor anchorWithStickyNavbar_LWe7" id="example-1">Example 1<a href="#example-1" class="hash-link" aria-label="Direct link to Example 1" title="Direct link to Example 1">​</a></h3><h3 class="anchor anchorWithStickyNavbar_LWe7" id="example-2">Example 2<a href="#example-2" class="hash-link" aria-label="Direct link to Example 2" title="Direct link to Example 2">​</a></h3><p>There could be N number of processes that might lead to desired outcome so we need to pick the approaches that are aligned with objective.
+We revisit the processes / system if goals and objective are not being fullfilled.</p><p>In above case, only "workout" process will help in achieving the desired goal. If its diet then it wouldn't help in achiving the overall goal.</p><h3 class="anchor anchorWithStickyNavbar_LWe7" id="reference">Reference<a href="#reference" class="hash-link" aria-label="Direct link to Reference" title="Direct link to Reference">​</a></h3>]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Transactions across the data centers]]></title>
+        <id>https://your-docusaurus-test-site.com/software-architecture/blog/transactions-across-the-data-centers</id>
+        <link href="https://your-docusaurus-test-site.com/software-architecture/blog/transactions-across-the-data-centers"/>
+        <updated>2023-05-30T12:30:03.000Z</updated>
+        <content type="html"><![CDATA[<iframe width="560" height="315" src="https://www.youtube.com/embed/srOgpXECblk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"></iframe>]]></content>
+        <author>
+            <name>Google Developers</name>
+        </author>
+        <category label="Database" term="Database"/>
+        <category label="Multi Data Center" term="Multi Data Center"/>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Choosing the Best Database in a System Design Interview]]></title>
+        <id>https://your-docusaurus-test-site.com/software-architecture/blog/choosing-the-best-database-in-a-system-design-interview</id>
+        <link href="https://your-docusaurus-test-site.com/software-architecture/blog/choosing-the-best-database-in-a-system-design-interview"/>
+        <updated>2023-05-27T03:16:00.000Z</updated>
+        <content type="html"><![CDATA[<iframe width="800" height="400" src="https://www.youtube.com/embed/cODCpXtPHbQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"></iframe>]]></content>
+        <author>
+            <name>Code Karle</name>
+        </author>
+        <category label="Database" term="Database"/>
+        <category label="SQL" term="SQL"/>
+        <category label="NoSQL" term="NoSQL"/>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[When to use microservices]]></title>
+        <id>https://your-docusaurus-test-site.com/software-architecture/blog/when-to-use-microservices</id>
+        <link href="https://your-docusaurus-test-site.com/software-architecture/blog/when-to-use-microservices"/>
+        <updated>2023-05-27T03:16:00.000Z</updated>
+        <content type="html"><![CDATA[<iframe width="700" height="400" src="https://www.youtube.com/embed/GBTdnfD6s5Q" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"></iframe>]]></content>
+        <author>
+            <name>Sam Newman &amp; Martin Fowler</name>
+        </author>
+        <category label="Microservices" term="Microservices"/>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Lessons learned form Kafka in production]]></title>
+        <id>https://your-docusaurus-test-site.com/software-architecture/blog/lessons-learned-from-kafka-in-production</id>
+        <link href="https://your-docusaurus-test-site.com/software-architecture/blog/lessons-learned-from-kafka-in-production"/>
+        <updated>2023-04-25T03:43:16.000Z</updated>
+        <content type="html"><![CDATA[<iframe width="700" height="400" src="https://www.youtube.com/embed/1vLMuWsfMcA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"></iframe>]]></content>
+        <author>
+            <name>Tim Berglund</name>
+        </author>
+        <category label="Kafka" term="Kafka"/>
+    </entry>
+</feed>
