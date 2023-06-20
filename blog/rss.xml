@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/">
     <channel>
         <title>Software Architecture Blog</title>
-        <link>https://your-docusaurus-test-site.com/software-architecture/blog</link>
+        <link>https://your-docusaurus-test-site.com/blog</link>
         <description>Software Architecture Blog</description>
         <lastBuildDate>Tue, 13 Jun 2023 23:20:21 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
@@ -10,8 +10,8 @@
         <language>en</language>
         <item>
             <title><![CDATA[Goals, Objective and Outcomes]]></title>
-            <link>https://your-docusaurus-test-site.com/software-architecture/blog/goals-objectives-and-outcomes</link>
-            <guid>https://your-docusaurus-test-site.com/software-architecture/blog/goals-objectives-and-outcomes</guid>
+            <link>https://your-docusaurus-test-site.com/blog/goals-objectives-and-outcomes</link>
+            <guid>https://your-docusaurus-test-site.com/blog/goals-objectives-and-outcomes</guid>
             <pubDate>Tue, 13 Jun 2023 23:20:21 GMT</pubDate>
             <description><![CDATA[Background]]></description>
             <content:encoded><![CDATA[<h2 class="anchor anchorWithStickyNavbar_LWe7" id="background">Background<a href="#background" class="hash-link" aria-label="Direct link to Background" title="Direct link to Background">​</a></h2><p>In our day to day life, we are often asked various questions like "why we are doing this", "what would happen if we don't do it", "how do we know if we are doing the right thing" and so on.</p><p>The reason why these questions comes to our mind is because are we think inside out and we don't have the sufficient context why this decision was made and why we are being asked to do a specific task.</p><p>As an example, a team might get a goal that the unit test coverage for the components should be at least 85%. We all understand the need for having the unit test cases but then we have questions about the measurement criteria. E.g. is it important to have well written test cases vs some poorly written test cases that have 80-90% line coverage?</p><p>This is where we need to share a big picture with the team mates and we need to explain and share the <em>why</em> (goals and objectives) so that team better understanding and is able to help in achieveing the actual goal even though if it means that we have to adjust the measurement criteria from 85% coverage to 80% coverage and well maintained test cases.</p><blockquote><p>The maintainance of the test case is very important and we should add update them if we are founding any new bug.</p></blockquote><h2 class="anchor anchorWithStickyNavbar_LWe7" id="template">Template<a href="#template" class="hash-link" aria-label="Direct link to Template" title="Direct link to Template">​</a></h2><p>The big picture can be shared using following template:</p><p>Note - Outcomes should be used for identifying the gaps and improvements - What changes are required in processes, What changes are required in objectives.</p><h2 class="anchor anchorWithStickyNavbar_LWe7" id="examples">Examples<a href="#examples" class="hash-link" aria-label="Direct link to Examples" title="Direct link to Examples">​</a></h2><h3 class="anchor anchorWithStickyNavbar_LWe7" id="example-1">Example 1<a href="#example-1" class="hash-link" aria-label="Direct link to Example 1" title="Direct link to Example 1">​</a></h3><h3 class="anchor anchorWithStickyNavbar_LWe7" id="example-2">Example 2<a href="#example-2" class="hash-link" aria-label="Direct link to Example 2" title="Direct link to Example 2">​</a></h3><p>There could be N number of processes that might lead to desired outcome so we need to pick the approaches that are aligned with objective.
@@ -19,8 +19,8 @@ We revisit the processes / system if goals and objective are not being fullfille
         </item>
         <item>
             <title><![CDATA[Transactions across the data centers]]></title>
-            <link>https://your-docusaurus-test-site.com/software-architecture/blog/transactions-across-the-data-centers</link>
-            <guid>https://your-docusaurus-test-site.com/software-architecture/blog/transactions-across-the-data-centers</guid>
+            <link>https://your-docusaurus-test-site.com/blog/transactions-across-the-data-centers</link>
+            <guid>https://your-docusaurus-test-site.com/blog/transactions-across-the-data-centers</guid>
             <pubDate>Tue, 30 May 2023 12:30:03 GMT</pubDate>
             <content:encoded><![CDATA[<iframe width="560" height="315" src="https://www.youtube.com/embed/srOgpXECblk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"></iframe>]]></content:encoded>
             <category>Database</category>
@@ -28,8 +28,8 @@ We revisit the processes / system if goals and objective are not being fullfille
         </item>
         <item>
             <title><![CDATA[Choosing the Best Database in a System Design Interview]]></title>
-            <link>https://your-docusaurus-test-site.com/software-architecture/blog/choosing-the-best-database-in-a-system-design-interview</link>
-            <guid>https://your-docusaurus-test-site.com/software-architecture/blog/choosing-the-best-database-in-a-system-design-interview</guid>
+            <link>https://your-docusaurus-test-site.com/blog/choosing-the-best-database-in-a-system-design-interview</link>
+            <guid>https://your-docusaurus-test-site.com/blog/choosing-the-best-database-in-a-system-design-interview</guid>
             <pubDate>Sat, 27 May 2023 03:16:00 GMT</pubDate>
             <content:encoded><![CDATA[<iframe width="800" height="400" src="https://www.youtube.com/embed/cODCpXtPHbQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"></iframe>]]></content:encoded>
             <category>Database</category>
@@ -38,16 +38,16 @@ We revisit the processes / system if goals and objective are not being fullfille
         </item>
         <item>
             <title><![CDATA[When to use microservices]]></title>
-            <link>https://your-docusaurus-test-site.com/software-architecture/blog/when-to-use-microservices</link>
-            <guid>https://your-docusaurus-test-site.com/software-architecture/blog/when-to-use-microservices</guid>
+            <link>https://your-docusaurus-test-site.com/blog/when-to-use-microservices</link>
+            <guid>https://your-docusaurus-test-site.com/blog/when-to-use-microservices</guid>
             <pubDate>Sat, 27 May 2023 03:16:00 GMT</pubDate>
             <content:encoded><![CDATA[<iframe width="700" height="400" src="https://www.youtube.com/embed/GBTdnfD6s5Q" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"></iframe>]]></content:encoded>
             <category>Microservices</category>
         </item>
         <item>
             <title><![CDATA[Lessons learned form Kafka in production]]></title>
-            <link>https://your-docusaurus-test-site.com/software-architecture/blog/lessons-learned-from-kafka-in-production</link>
-            <guid>https://your-docusaurus-test-site.com/software-architecture/blog/lessons-learned-from-kafka-in-production</guid>
+            <link>https://your-docusaurus-test-site.com/blog/lessons-learned-from-kafka-in-production</link>
+            <guid>https://your-docusaurus-test-site.com/blog/lessons-learned-from-kafka-in-production</guid>
             <pubDate>Tue, 25 Apr 2023 03:43:16 GMT</pubDate>
             <content:encoded><![CDATA[<iframe width="700" height="400" src="https://www.youtube.com/embed/1vLMuWsfMcA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"></iframe>]]></content:encoded>
             <category>Kafka</category>
