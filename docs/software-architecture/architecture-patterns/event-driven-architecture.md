@@ -124,3 +124,7 @@ On the contratry, the Fat event is similar to coarse grained events and contains
 ## References
 
 [Event Notification vs Event Carried State Transfer](https://medium.com/swlh/event-notification-vs-event-carried-state-transfer-2e4fdf8f6662)
+
+[Case Study - Document Processor System for Due Dillgience](https://www.infoq.com/articles/eda-mediator/)
+
+![Diagram](https://imgopt.infoq.com/fit-in/1200x2400/filters:quality(80)/filters:no_upscale()/articles/eda-mediator/en/resources/27figure-1-1685547198564.jpg)

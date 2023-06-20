@@ -78,4 +78,15 @@ This approach is used for reducing the latency and for reudcing the load on prim
 Examples : Storing the session information per customer for authentication and authorization.
 
 
+### Cache Policies :
+#### Time to Live Policy
+- A short TTL could lead to more cache miss leading to performance and latency issues.
+- A long TTL could lead to memory issue as there will be more keys in the momory.
+
+In case of TTL policy, the data staleness should also be considered. If data is being updated by other processes then this approach might serve old data to the customers.
+
+#### Least Frequently Used Policy
+- The keys that are being used least frequently will be cleaned up for keeping the memory footprint optimized.
+
+In this case also, the staleness of the data has to be kept in mind. If a key has very high frequency then we will have to think about the mechanism for updating the values.
 
