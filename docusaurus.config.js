@@ -95,7 +95,7 @@ const config = {
           {to: '/blog', label: 'Tech Talks', position: 'left'},
           {
             href: '/docs/blogs-to-follow',
-            label: 'Top Blogs',
+            label: 'Top Learning Sources',
             position: 'left',
           },
           {
