@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/">
     <channel>
-        <title>Software Architecture Blog</title>
+        <title>Software Note Book Blog</title>
         <link>https://your-docusaurus-test-site.com/blog</link>
-        <description>Software Architecture Blog</description>
+        <description>Software Note Book Blog</description>
         <lastBuildDate>Tue, 13 Jun 2023 23:20:21 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
