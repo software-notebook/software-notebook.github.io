@@ -31,3 +31,33 @@ The well defined APIs have following characteristics.
         - Upgrade Major Version for significant changes or backward incompatible changes.
     - Rollback and Fix forward starategies
         - Plan for unknown issues.
+
+    
+# REST API
+## Key considerations
+- Purpose
+- 
+## REST APIs
+- Payload
+    - Request
+        - GET
+        - POST
+        - PUT
+        - PATCH
+        - DELETE
+    - Response
+        - 2XX
+        - 4XX
+        - 5XX
+
+- Governance
+    - API Versioning
+        - Backward comaptiblity
+- Security
+    - Authentication (client_id, secret, auth-tokens etc.)
+    - Authorization (scopes,permissions etc.)
+    - Rate limit
+    - Sensative Data Handling
+- Observability
+    - Availablity
+    - Latency

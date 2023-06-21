@@ -1,4 +1,4 @@
-# Blogs to follow
+# Top Blogs
 [InfoQ](https://www.infoq.com/)
 
 [Byte byte go](https://blog.bytebytego.com/?utm_source=site)

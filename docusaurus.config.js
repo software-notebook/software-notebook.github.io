@@ -6,8 +6,8 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'Software Architecture',
-  tagline: 'Lets take a byte !!!',
+  title: 'Software Note Book',
+  tagline: 'Lets learn and share togather !!!',
   favicon: 'img/favicon.ico',
 
   // Set the production url of your site here
@@ -95,7 +95,7 @@ const config = {
           {to: '/blog', label: 'Tech Talks', position: 'left'},
           {
             href: '/docs/blogs-to-follow',
-            label: 'Blogs To Follow',
+            label: 'Top Blogs',
             position: 'left',
           },
           {
