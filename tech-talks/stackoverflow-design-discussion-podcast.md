@@ -1,4 +1,7 @@
-# Stackoverflow Design Podcasts
+---
+slug: stackoverflow-design-podcasts
+title: Stackoverflow Design Podcasts
+---
 
 # Stackoverflow Monolith Architecture
 
