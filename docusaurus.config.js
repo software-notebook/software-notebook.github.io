@@ -49,11 +49,10 @@ const config = {
             'https://github.com/atulagrawal/software-architecture/tree/main/packages/create-docusaurus/templates/shared/',
         },
         blog: {
-          showReadingTime: true,
-          // Please change this to your repo.
-          // Remove this to remove the "edit this page" links.
-          editUrl:
-            'https://github.com//atulagrawal/software-architecture/tree/main/packages/create-docusaurus/templates/shared/',
+          id : 'articles',
+          routeBasePath: 'articles',
+          path: './articles',
+          showReadingTime: true
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
@@ -113,7 +112,7 @@ const config = {
             sidebarId: 'systemDesignSidebar',
             label: 'System Design',
           },
-          {to: '/blog', label: 'Articles', position: 'left'},
+          {to: '/articles', label: 'Articles', position: 'left'},
           {to: '/tech-talks', label: 'Tech Talks', position: 'left'},
           {
             href: '/docs/blogs-to-follow',
