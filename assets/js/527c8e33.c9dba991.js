@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunksoftware_architecture=self.webpackChunksoftware_architecture||[]).push([[6795],{245:a=>{a.exports=JSON.parse('{"label":"Database","permalink":"/blog/tags/database","allTagsPath":"/blog/tags","count":2}')}}]);

@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunksoftware_architecture=self.webpackChunksoftware_architecture||[]).push([[3540],{6297:e=>{e.exports=JSON.parse('{"label":"NoSQL","permalink":"/tech-talks/tags/no-sql","allTagsPath":"/tech-talks/tags","count":1}')}}]);

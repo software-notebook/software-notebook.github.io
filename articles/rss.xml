@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+    <channel>
+        <title>Software Note Book Blog</title>
+        <link>https://your-docusaurus-test-site.com/articles</link>
+        <description>Software Note Book Blog</description>
+        <lastBuildDate>Tue, 13 Jun 2023 23:20:21 GMT</lastBuildDate>
+        <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
+        <generator>https://github.com/jpmonette/feed</generator>
+        <language>en</language>
+        <item>
+            <title><![CDATA[Goals, Objective and Outcomes]]></title>
+            <link>https://your-docusaurus-test-site.com/articles/goals-objectives-and-outcomes</link>
+            <guid>https://your-docusaurus-test-site.com/articles/goals-objectives-and-outcomes</guid>
+            <pubDate>Tue, 13 Jun 2023 23:20:21 GMT</pubDate>
+            <description><![CDATA[Background]]></description>
+            <content:encoded><![CDATA[<h2 class="anchor anchorWithStickyNavbar_LWe7" id="background">Background<a href="#background" class="hash-link" aria-label="Direct link to Background" title="Direct link to Background">​</a></h2><p>In our day to day life, we are often asked various questions like "why we are doing this", "what would happen if we don't do it", "how do we know if we are doing the right thing" and so on.</p><p>The reason why these questions comes to our mind is because are we think inside out and we don't have the sufficient context why this decision was made and why we are being asked to do a specific task.</p><p>As an example, a team might get a goal that the unit test coverage for the components should be at least 85%. We all understand the need for having the unit test cases but then we have questions about the measurement criteria. E.g. is it important to have well written test cases vs some poorly written test cases that have 80-90% line coverage?</p><p>This is where we need to share a big picture with the team mates and we need to explain and share the <em>why</em> (goals and objectives) so that team better understanding and is able to help in achieveing the actual goal even though if it means that we have to adjust the measurement criteria from 85% coverage to 80% coverage and well maintained test cases.</p><blockquote><p>The maintainance of the test case is very important and we should add update them if we are founding any new bug.</p></blockquote><h2 class="anchor anchorWithStickyNavbar_LWe7" id="template">Template<a href="#template" class="hash-link" aria-label="Direct link to Template" title="Direct link to Template">​</a></h2><p>The big picture can be shared using following template:</p><p>Note - Outcomes should be used for identifying the gaps and improvements - What changes are required in processes, What changes are required in objectives.</p><h2 class="anchor anchorWithStickyNavbar_LWe7" id="examples">Examples<a href="#examples" class="hash-link" aria-label="Direct link to Examples" title="Direct link to Examples">​</a></h2><h3 class="anchor anchorWithStickyNavbar_LWe7" id="example-1">Example 1<a href="#example-1" class="hash-link" aria-label="Direct link to Example 1" title="Direct link to Example 1">​</a></h3><h3 class="anchor anchorWithStickyNavbar_LWe7" id="example-2">Example 2<a href="#example-2" class="hash-link" aria-label="Direct link to Example 2" title="Direct link to Example 2">​</a></h3><p>There could be N number of processes that might lead to desired outcome so we need to pick the approaches that are aligned with objective.
+We revisit the processes / system if goals and objective are not being fullfilled.</p><p>In above case, only "workout" process will help in achieving the desired goal. If its diet then it wouldn't help in achiving the overall goal.</p><h3 class="anchor anchorWithStickyNavbar_LWe7" id="reference">Reference<a href="#reference" class="hash-link" aria-label="Direct link to Reference" title="Direct link to Reference">​</a></h3>]]></content:encoded>
+        </item>
+    </channel>
+</rss>

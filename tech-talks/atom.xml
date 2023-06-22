@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <id>https://your-docusaurus-test-site.com/tech-talks</id>
+    <title>Software Note Book Blog</title>
+    <updated>2023-05-30T12:30:03.000Z</updated>
+    <generator>https://github.com/jpmonette/feed</generator>
+    <link rel="alternate" href="https://your-docusaurus-test-site.com/tech-talks"/>
+    <subtitle>Software Note Book Blog</subtitle>
+    <icon>https://your-docusaurus-test-site.com/img/favicon.ico</icon>
+    <entry>
+        <title type="html"><![CDATA[Transactions across the data centers]]></title>
+        <id>https://your-docusaurus-test-site.com/tech-talks/transactions-across-the-data-centers</id>
+        <link href="https://your-docusaurus-test-site.com/tech-talks/transactions-across-the-data-centers"/>
+        <updated>2023-05-30T12:30:03.000Z</updated>
+        <content type="html"><![CDATA[<iframe width="560" height="315" src="https://www.youtube.com/embed/srOgpXECblk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"></iframe>]]></content>
+        <author>
+            <name>Google Developers</name>
+        </author>
+        <category label="Database" term="Database"/>
+        <category label="Multi Data Center" term="Multi Data Center"/>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Choosing the Best Database in a System Design Interview]]></title>
+        <id>https://your-docusaurus-test-site.com/tech-talks/choosing-the-best-database-in-a-system-design-interview</id>
+        <link href="https://your-docusaurus-test-site.com/tech-talks/choosing-the-best-database-in-a-system-design-interview"/>
+        <updated>2023-05-27T03:16:00.000Z</updated>
+        <content type="html"><![CDATA[<iframe width="800" height="400" src="https://www.youtube.com/embed/cODCpXtPHbQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"></iframe>]]></content>
+        <author>
+            <name>Code Karle</name>
+        </author>
+        <category label="Database" term="Database"/>
+        <category label="SQL" term="SQL"/>
+        <category label="NoSQL" term="NoSQL"/>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[When to use microservices]]></title>
+        <id>https://your-docusaurus-test-site.com/tech-talks/when-to-use-microservices</id>
+        <link href="https://your-docusaurus-test-site.com/tech-talks/when-to-use-microservices"/>
+        <updated>2023-05-27T03:16:00.000Z</updated>
+        <content type="html"><![CDATA[<iframe width="700" height="400" src="https://www.youtube.com/embed/GBTdnfD6s5Q" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"></iframe>]]></content>
+        <author>
+            <name>Sam Newman &amp; Martin Fowler</name>
+        </author>
+        <category label="Microservices" term="Microservices"/>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Stackoverflow Design Podcasts]]></title>
+        <id>https://your-docusaurus-test-site.com/tech-talks/stackoverflow-design-podcasts</id>
+        <link href="https://your-docusaurus-test-site.com/tech-talks/stackoverflow-design-podcasts"/>
+        <updated>2023-05-26T23:01:59.000Z</updated>
+        <summary type="html"><![CDATA[High Level Architecture]]></summary>
+        <content type="html"><![CDATA[<p><a href="https://www.linkedin.com/pulse/case-study-how-stackoverflows-monolith-beats-navjot-bansal" target="_blank" rel="noopener noreferrer">High Level Architecture</a></p><iframe allow="autoplay *; encrypted-media *; fullscreen *; clipboard-write" frameborder="0" height="175" width="100%" sandbox="allow-forms allow-popups allow-same-origin allow-scripts allow-storage-access-by-user-activation allow-top-navigation-by-user-activation" src="https://embed.podcasts.apple.com/il/podcast/engineering-stack-overflow-with-roberta-arcoverde/id117488860?i=1000568359491"></iframe>]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Lessons learned form Kafka in production]]></title>
+        <id>https://your-docusaurus-test-site.com/tech-talks/lessons-learned-from-kafka-in-production</id>
+        <link href="https://your-docusaurus-test-site.com/tech-talks/lessons-learned-from-kafka-in-production"/>
+        <updated>2023-04-25T03:43:16.000Z</updated>
+        <content type="html"><![CDATA[<iframe width="700" height="400" src="https://www.youtube.com/embed/1vLMuWsfMcA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"></iframe>]]></content>
+        <author>
+            <name>Tim Berglund</name>
+        </author>
+        <category label="Kafka" term="Kafka"/>
+    </entry>
+</feed>
