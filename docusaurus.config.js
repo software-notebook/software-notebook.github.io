@@ -62,6 +62,27 @@ const config = {
     ],
   ],
 
+  plugins: [
+    [
+      '@docusaurus/plugin-content-blog',
+      {
+        /**
+         * Required for any multi-instance plugin
+         */
+        id: 'tech-talks',
+        /**
+         * URL route for the blog section of your site.
+         * *DO NOT* include a trailing slash.
+         */
+        routeBasePath: 'tech-talks',
+        /**
+         * Path to data on filesystem relative to site dir.
+         */
+        path: './tech-talks',
+      },
+    ],
+  ],
+
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
@@ -92,7 +113,8 @@ const config = {
             sidebarId: 'systemDesignSidebar',
             label: 'System Design',
           },
-          {to: '/blog', label: 'Tech Talks', position: 'left'},
+          {to: '/blog', label: 'Articles', position: 'left'},
+          {to: '/tech-talks', label: 'Tech Talks', position: 'left'},
           {
             href: '/docs/blogs-to-follow',
             label: 'Top Learning Sources',
