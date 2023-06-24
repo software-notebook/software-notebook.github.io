@@ -1,4 +1,4 @@
-# Things to always keep in mind
+# Asking the right questions
 
 - Are we solving the right problem?
     - Ask what are the business drivers?

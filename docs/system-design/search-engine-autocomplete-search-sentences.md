@@ -69,7 +69,9 @@ Notes :
 - The coordinator will have to lookup for the nodes (shards) from the local copy of the shard mapper for identifiying the nodes that are required to be queries. 
 - The shard mapper will be managed by the quorum.
 
-https://www.elastic.co/blog/found-elasticsearch-top-down
+[Elastic Search](https://www.elastic.co/blog/found-elasticsearch-top-down)
+
+[Quickwit Architecture](https://quickwit.io/docs/main-branch/overview/architecture)
 
 ### Questions
 - How will you give top phrases (top 5)?

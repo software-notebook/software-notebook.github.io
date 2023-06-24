@@ -25,7 +25,7 @@ If you are using GitHub pages for hosting, this command is a convenient way to b
 
 
 The following url works as of now !!!
-https://atulagrawal.github.io/software-architecture/docs/category/tutorial---extras/
+https://software-notebook.github.io/
 
 # Notes
 # Command to start the server

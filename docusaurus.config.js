@@ -42,11 +42,7 @@ const config = {
       /** @type {import('@docusaurus/preset-classic').Options} */
       ({
         docs: {
-          sidebarPath: require.resolve('./sidebars.js'),
-          // Please change this to your repo.
-          // Remove this to remove the "edit this page" links.
-          editUrl:
-            'https://github.com/atulagrawal/software-architecture/tree/main/packages/create-docusaurus/templates/shared/',
+          sidebarPath: require.resolve('./sidebars.js')
         },
         blog: {
           id : 'articles',
@@ -86,12 +82,12 @@ const config = {
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       // Replace with your project's social card
-      image: 'img/docusaurus-social-card.jpg',
+      image: 'img/software-notebook-logo.png',
       navbar: {
         title: 'Home',
         logo: {
           alt: 'My Site Logo',
-          src: 'img/logo.svg',
+          src: 'img/software-notebook-low-resolution-color-logo.png',
         },
         items: [
           // {
@@ -120,7 +116,7 @@ const config = {
             position: 'left',
           },
           {
-            href: 'https://github.com/atulagrawal/software-architecture',
+            href: 'https://github.com/software-notebook/software-notebook.github.io',
             label: 'GitHub',
             position: 'right',
           },
@@ -139,15 +135,15 @@ const config = {
             ],
           },
           {
-            title: 'More',
+            title: 'Articles',
             items: [
               {
-                label: 'Blog',
-                to: '/blog',
+                label: 'Articles',
+                to: '/articles',
               },
               {
                 label: 'GitHub',
-                href: 'https://github.com/atulagrawal/software-architecture',
+                href: 'https://github.com/software-notebook/software-notebook.github.io',
               },
             ],
           },
